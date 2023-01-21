@@ -16,8 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
 		if (newEvent) {
 			if (toDoEvents.events.length < 7) {
 				toDoEvents.events.push(newEvent);
+				event.target.reset();
 				addEvents(toDoEvents.events, listEvents);
-				console.log(toDoEvents.events);
+			
 			}
 		}
 	});
