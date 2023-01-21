@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	function addEvents(events, parent) {
 		parent.innerHTML = '';
 		events.forEach((event, i) => {
-			parent.innerHTML += `<li class="todolistli">${event}<div class="apply"></div><div class="delete"></div></li>`;
+			parent.innerHTML += `<li class="todolistli">${i+1}. ${event}<div class="apply"></div><div class="delete"></div></li>`;
 		});
 		document.querySelectorAll('.delete').forEach((btn, i) => {
 			btn.addEventListener('click', () => {
