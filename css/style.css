@@ -103,3 +103,7 @@ box-shadow: 1px 5px 10px 5px rgba(34, 60, 80, 0.39);
 	margin-top: 12px;
 	font-size: 15px;
 }
+li {
+	transition: 1s;
+
+}
